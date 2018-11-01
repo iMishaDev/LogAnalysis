@@ -14,6 +14,8 @@ Building an informative summary from logs is a real task that comes up very ofte
 - VirtualBox
 - python 2
 - Clone this repository
+- news database download link: [Link](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
+
 ## Log Analysis running steps:
 Launch Vagrant VM by running `vagrant up`, you can the log in with `vagrant ssh`
 To load the data, use the command `psql -d news -f newsdata.sql` to connect a database and run the necessary SQL statements.
